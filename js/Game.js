@@ -129,6 +129,7 @@ class Game{
       textSize(40);
       text("GAME OVER",350,300);
 
+      clear();
       fill("black");
       textSize(30);
       text("CONGRATS WINNER",335,350);
