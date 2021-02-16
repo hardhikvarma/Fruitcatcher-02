@@ -129,6 +129,7 @@ class Game{
       textSize(40);
       text("GAME OVER",350,300);
 
+       game.update(2);
       clear();
       fill("black");
       textSize(30);
