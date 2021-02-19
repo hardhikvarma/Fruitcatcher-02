@@ -24,7 +24,7 @@ class Game{
                     player.getCount();
                 }
                 form = new Form()
-                form.display();
+                form.display();   
             }
     player1 = createSprite(200,500);
     player1.addImage("player1",player_img);
@@ -114,22 +114,24 @@ class Game{
                           
                       }
                   }
-                if(player.score>=10){
+                
+                 if(player.score>=10){
                    this.end();
+                 }                
+
+                 
                 }
 
-         
-         
-        
-         
-
-    }
-
     end(){
-       game.update(2);
+      game.update(2);
       clear();
       fill("blue");
       textSize(40);
       text("GAME OVER",350,300);
+
+      fill("black");
+      textSize(30);
+      text("CONGRATS WINNER",335,350);
     }
 }
+
