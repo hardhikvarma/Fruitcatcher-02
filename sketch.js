@@ -47,4 +47,8 @@ function draw() {
     
      game.end();
    }
+  if(player.score>=10){
+                   this.end();
+                }
+
 }
