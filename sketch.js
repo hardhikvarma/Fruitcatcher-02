@@ -48,4 +48,4 @@ function draw() {
      game.end();
    }
 }
-}
+
